@@ -1,0 +1,16 @@
+# Homework 5:  Option 1 - predicting a person's “Empathy”
+UIC CS 412, Fall 2018
+
+Author: Fangfang Fu
+Netid: ffu3
+Date: 12/1/2018
+
+Install anaconda for python 3.6: https://www.anaconda.com/download
+If you already have anaconda, make sure it's updated to this version.
+
+Where to get the data file responses.csv?
+    - https://www.kaggle.com/miroslavsabo/young-people-survey/
+How to run the program?
+    - put responses.csv data file into a data folder (my program grab data with path "data/responses.csv")
+    - python train.py (train and tune all the models)
+    - python test.py  (load trained model and test, print all the results)
