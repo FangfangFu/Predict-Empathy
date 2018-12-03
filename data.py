@@ -71,7 +71,7 @@ def processData(filename):
 
 class SurveyData:
     # preprocess the data
-    Xall,Yall,headers = processData("data/responses.csv")       
+    Xall,Yall,headers = processData("responses.csv")       
 
     # Split the data - Train: 60%, Develop: 20%, Test: 20%
     Xtr,Xte,Ytr,Yte = train_test_split(Xall, Yall, test_size=0.2, random_state=0)
@@ -111,7 +111,7 @@ def perceptronProcessData(filename):
 
 class PerceptronSurveyData:
     # preprocess the data
-    Xall,Yall,headers = perceptronProcessData("data/responses.csv")       
+    Xall,Yall,headers = perceptronProcessData("responses.csv")       
 
     # Split the data - Train: 60%, Develop: 20%, Test: 20%
     Xtr,Xte,Ytr,Yte = train_test_split(Xall, Yall, test_size=0.2, random_state=0)

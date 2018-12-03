@@ -11,8 +11,8 @@ If you already have anaconda, make sure it's updated to this version.
 Where to get the data file responses.csv?
     - https://www.kaggle.com/miroslavsabo/young-people-survey/
 How to run the program?
-    - put responses.csv data file into a data folder (my program grab data with path "data/responses.csv")
     - clone or download coding files from https://github.com/FangfangFu/CS412HW5.git
     - open anaconda terminal and direct to source folder
+    - put responses.csv data file into the source folder (my program grab data with path "responses.csv")
     - Open notebook with Command: jupyter notebook &
     - select hw5.ipynb to view
